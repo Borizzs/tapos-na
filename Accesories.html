@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title>
+    <link rel="icon" type="image/x-icon" href="c:\Users\cated\Documents\wow code\pictures\gadgetmatch-asus-rog-20180513.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <h1>ICT</h1>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Accesories.html">About</a></li>
+
+        </ul>
+        </nav>
+        <a href="home.html"><img src="pictures/menu.png" width="30px" height="30px"></a>        
+        <img src="c:\Users\cated\Documents\wow code\pictures\menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<!-----single product :C-->
+
+<div class="small-contrainer">
+  <div class="row">
+    <div class="col-2">
+      <img src="new pictures/yahoo ict tayo.jpg" width="60%" style="transform: translate(70px); margin-left: 20%;">
+    </div>
+    <div class="col-2">
+      <p>ICT</p>
+      <p>Information and Communications Technology (ICT)
+      <p>Focuses on computer programming, 
+      <p>web development, and network administration,
+      <p>preparing students for careers in the tech industry.
+      <p>ITS MORE FUN IN ICT!
+        </p>
+    </div>
+  </div>
+  
+  <div class="col-5">
+    <div class="col-6">
+    <p>ICT 12</p>
+    </div>
+    <img src="new pictures/ict talikod.jpg">
+    <p>With our CCT program, you may become a skilled IT troubleshooter by honing your diagnostic and troubleshooting skills for computer hardware and network systems.
+      Equip yourself with a wide range of IT abilities, including computer networks, electronic communications, data communications, and broadband technology. Students who pick this focus can pursue college degrees in Computer Engineering and other technology-related fields.
+    </p>
+  </div>
+</div>
+
+
+<!-------- featured categories -------->
+<div class="row">
+  <div class="col-3">
+    <a href="">
+      <img src="new pictures/humss1.jpg">
+      <p class="price"><strong>Christmas Party</strong><br>2024</p>
+    </a>
+  </div>
+  <div class="col-3">
+    <a href="">
+    <img src="new pictures/humss2.jpg">
+    <p class="price"><strong>Christmas Party</strong><br>2024</p>
+  </a>
+  </div>
+  <div class="col-3">
+    <a href="">
+    <img src="new pictures/humss3.jpg">
+    <p class="price"><strong>Christmas Party</strong><br>2024</p>
+  </a>
+  </div>
+  <div class="col-3">
+    <a href="">
+    <img src="new pictures/humss4.jpg">
+    <p class="price"><strong>Christmas Party</strong><br>2024</p>
+  </a>
+  </div>
+
+
+
+
+  <div class="small-contrainer">
+    <div class="row">
+      <div class="col-2">
+        <img src="new pictures/pulbos.jpg" width="60%" style="transform: translate(70px); margin-left: 20%;">
+      </div>
+      <div class="col-2">
+        <p>ABOUT US!</p>
+        <p>ITS ALOT MORE FUN IN ICT 
+        <p>We get along easily and we find fun in various things. 
+        <p>May it be a subject or a project.</p>
+        <p>We help each other in need 
+        its about software 
+        <p>or hardware we can find a fix to it.
+        <p>Here is a gallery of the activities we do.</p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-3">
+        <a href="">
+          <img src="new pictures/AYE AYE.jpg" style="height: 500px;">
+          <p class="price"><strong>O CAPTAIN! MY CAPTAIN!</strong><br>This happend while watching a movie</p>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="">
+        <img src="new pictures/jail.jpg" style="height: 500px;">
+        <p class="price"><strong>Jail booth</strong><br>We were both caught in the jail booth</p>
+      </a>
+      </div>
+      <div class="col-3">
+        <a href="">
+        <img src="new pictures/research name.jpg">
+        <p class="price"><strong>Research time</strong><br>This was at the time of a research</p>
+      </a>
+      </div>
+    
+
+  </div>
+</div>
+</div>
+
+<!-------- footer -------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Maangas gumawa</h3>
+        <p></p><p>Samuel Boris Manaig</p>
+      </div>
+      <div class="footer-col-3">
+        <h3> Gawang lokal</h3>
+        <ul>
+          <li>Grade 12</li>
+          <li>IICT</li>
+          <li>Specialization</li>
+          <li></li>
+
+
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2024</p>
+  </div>
+</div>
+<!----------js for toggle menu------------>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.Style.maxHeight = "0px";
+  
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+      else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+</body>
+</html>

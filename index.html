@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechIT</title>
+    <link rel="icon" type="image/x-icon" href="c:\Users\cated\Documents\wow code\pictures\gadgetmatch-asus-rog-20180513.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="image-container">
+  
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+
+        </ul>
+        </nav>
+        
+        
+        <img src="pictures/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <h1 class="enchance">Welcome!</h1>
+        <p class="enchance">LSPU Los Banos Campus</p>
+        <p class="enchance">The Laguna State Polytechnic University - Los Baños Campus (LSPU-LBC) is a public university in Los Baños, Laguna, Philippines. It offers undergraduate, graduate, and post-graduate programs. </p>
+       <!-------- <a href="laptop.html" class="btn">Go To Store &#8594;</a>##-->
+      </div>
+      <div class="col-2">
+        <!--<img src="C:\Users\cated\Documents\sam folder\new code\website\TechIT\new pictures\logo lspu.png">-->
+    </div>
+  </div>
+</div>
+
+<!-------- featured categories -------->
+<div class="categories">
+  <h1 class="title">Strands</h1>
+
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <a href="Accesories.html">
+        <img src="new pictures/1.png">
+        <p class="price"><strong>ICT/AFA</strong><br></p>
+      </a>
+      </div>
+      <div class="col-3">
+        <a href="Playerone.html">
+        <img src="new pictures/3.png">
+        <p class="price"><strong>HUMSS</strong><br></p>
+      </a>
+      </div>
+      <div class="col-3">
+        <a href="TGMS.html">
+        <img src="new pictures/2.png">
+        <p class="price"><strong>ABM</strong><br></p>
+      </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Maangas gumawa</h3>
+        <p></p><p>Samuel Boris Manaig</p>
+      </div>
+      <div class="footer-col-3">
+        <h3> Gawang lokal</h3>
+        <ul>
+          <li>Grade 12</li>
+          <li>IICT</li>
+          <li>Specialization</li>
+          <li></li>
+
+
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2024</p>
+  </div>
+</div>
+<!----------js for toggle menu------------>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.Style.maxHeight = "0px";
+  
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+      else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+</body>
+</html>

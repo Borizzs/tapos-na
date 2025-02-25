@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title>
+    <link rel="icon" type="image/x-icon" href="c:\Users\cated\Documents\wow code\pictures\gadgetmatch-asus-rog-20180513.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <h1>HUMSS</h1>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Accesories.html">About</a></li>
+
+        </ul>
+        </nav>
+        <a href="home.html"><img src="pictures/menu.png" width="30px" height="30px"></a>        
+        <img src="c:\Users\cated\Documents\wow code\pictures\menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<!-----single product :C-->
+
+<div class="small-contrainer">
+  <div class="row">
+    <div class="col-2">
+      <img src="new pictures/humms pic 1.jpg" width="60%" style="transform: translate(70px); margin-left: 20%;">
+    </div>
+    <div class="col-2">
+      <p>HUMSS 12</p>
+      <p>Tackling the art of social and communication disciplines,  Communication Arts, and Psychology, preparing them for an outgoing, artistic, and sociological world.
+      <p>the HUMSS strand offers primary knowledge for students who want to take a degree in people-oriented programs such as Education, preparing them for an outgoing, artistic, and sociological world.
+      <p>
+      <p>Build confidence and enthusiasm in exploring the other side of the wall through interaction and storytelling courses offered such as oral and written communication,
+      <p>community engagement, global trends and networks, and analyzing social issues among others.
+        </p>
+    </div>
+  </div>
+  
+  <div class="col-5">
+    <div class="col-6">
+    <p>HUMSS 12</p>
+    </div>
+    <img src="new pictures/humss5.jpg">
+    <p> The strand covers subjects investigating human behavior, societal issues, and culture, providing profound knowledge in politics, literature, arts, and society. Students develop skills in communication, media, information, reading, and critical thinking.
+    </p>
+  </div>
+</div>
+
+
+<!-------- featured categories -------->
+<div class="row">
+  <div class="col-3">
+    <a href="">
+      <img src="new pictures/humss1.jpg">
+      <p class="price"><strong>Christmas Party</strong><br>2024</p>
+    </a>
+  </div>
+  <div class="col-3">
+    <a href="">
+    <img src="new pictures/humss2.jpg">
+    <p class="price"><strong>Christmas Party</strong><br>2024</p>
+  </a>
+  </div>
+  <div class="col-3">
+    <a href="">
+    <img src="new pictures/humss3.jpg">
+    <p class="price"><strong>Christmas Party</strong><br>2024</p>
+  </a>
+  </div>
+  <div class="col-3">
+    <a href="">
+    <img src="new pictures/humss4.jpg">
+    <p class="price"><strong>Event</strong><br></p>
+  </a>
+  </div>
+
+
+
+
+  <div class="small-contrainer">
+    <div class="row">
+      <div class="col-2">
+        <img src="new pictures/humss6.jpg" width="60%" style="transform: translate(70px); margin-left: 20%;">
+      </div>
+      <div class="col-2">
+        <p>It’s more fun in the HUMSS!</p>
+        <p>
+        <p>
+          Inspire high school students to develop their imagination through literature. Humanities and social sciences provide you with a set of skills for a broad range of professional fields, including business, communication, education, law, medicine, politics, and psychology, among others.
+        <p>Science subjects are wonderfully varied, offering a wide range of career progression routes following graduation. The scope is broad, but these subjects are united by one thing – a focus on understanding the workings of human society.
+        <p>Here is a gallery of the activities we do.</p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-3">
+        <a href="">
+          <img src="new pictures/humss6.jpg">
+          <p class="price"><strong>Event</strong><br></p>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="">
+        <img src="new pictures/humss5.jpg">
+        <p class="price"><strong>Event</strong><br></p>
+      </a>
+      </div>
+      <div class="col-3">
+        <a href="">
+        <img src="new pictures/humms pic 1.jpg">
+        <p class="price"><strong>Event</strong><br></p>
+      </a>
+      </div>
+    
+
+  </div>
+</div>
+</div>
+
+<!-------- footer -------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Maangas gumawa</h3>
+        <p></p><p>Samuel Boris Manaig</p>
+      </div>
+      <div class="footer-col-3">
+        <h3> Gawang lokal</h3>
+        <ul>
+          <li>Grade 12</li>
+          <li>IICT</li>
+          <li>Specialization</li>
+          <li></li>
+
+
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2024</p>
+  </div>
+</div>
+<!----------js for toggle menu------------>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.Style.maxHeight = "0px";
+  
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+      else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+</body>
+</html>
